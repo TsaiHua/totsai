@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>li</title>
+    <style media="screen">
+      /* 小技巧在每个dt标签后面加：*/
+      dt:after{
+        content: ":"
+      }
+      .audio{background-color: red;width: 20px;height: 20px}
+    </style>
+  </head>
+  <body>
+    <ol type="I">
+      <li value="9">tsai hua</li>
+      <li>totsai</li>
+      <li>vincent</li>
+    </ol><hr>
+    <ol type="A">
+      <li value="9">tsai hua</li>
+      <li>totsai</li>
+      <li>vincent</li>
+    </ol><hr>
+    <ol >
+      <li value="9">tsai hua</li>
+      <li>totsai</li>
+      <li>vincent <cite>Tsai</cite></li>
+    </ol><hr>
+    <ul >
+      <li>tsai <span>hua</span></li>
+      <li>totsai</li>
+      <li>vincent</li>
+    </ul><hr>
+    <span>autoplay audio:</span>
+    <div class="audio">
+      <audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" autoplay>
+        Your browser does not support the <code>audio</code> element.
+      </audio>
+    </div>
+    
+    <del>shift</del>
+  </body>
+</html>
